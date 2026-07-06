@@ -124,21 +124,25 @@ public class Day5 {
         System.out.print("Enter a String :");
         String str = sc.nextLine();
         int vowels = 0;
+        int consonants = 0;
 
         for ( int i=0;i<str.length();i++) {
-            if ((str.charAt(i)=='A') || (str.charAt(i)=='E')||(str.charAt(i)=='I')||
-            (str.charAt(i)=='O')||(str.charAt(i)=='O')||(str.charAt(i)=='U')||
-            (str.charAt(i)=='a')||(str.charAt(i)=='e')||(str.charAt(i)=='i')||
-            (str.charAt(i)=='o')||(str.charAt(i)=='u')){
+            char ch = str.charAt(i);
+            if (ch=='A' || ch =='E'|| ch== 'I'|| ch== 'O'|| ch=='U'||ch=='a' || ch =='e'|| ch== 'i'|| ch== 'o'|| ch=='u'){
                 vowels++;
 
+            }else{
+                consonants++;
             }
         
             
         }
         System.out.println("Vowels count :"+vowels);
+        System.out.println("Consonants count :"+consonants);
             
             }
+
+        
 
         
 
@@ -159,6 +163,6 @@ public class Day5 {
 
 
 
-    }
+    
     
 
