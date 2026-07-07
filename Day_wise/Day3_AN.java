@@ -1,3 +1,4 @@
+package Day_wise;
  //import java.util.Scanner;
  public class Day3_AN {
     public static void main(String[] args) {

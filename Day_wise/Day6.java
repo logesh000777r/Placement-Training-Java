@@ -1,3 +1,4 @@
+package Day_wise;
 
 
 public class Day6 {   //Bank.java , Laptop.java

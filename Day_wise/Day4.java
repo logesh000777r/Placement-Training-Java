@@ -1,3 +1,4 @@
+package Day_wise;
 // import java.util.Arrays;
 import java.util.Scanner;
 public class Day4 {
@@ -5,7 +6,7 @@ public class Day4 {
 
         //* 1D Array */
         
-        // int a[] ={10,20,30,50,40};
+        int a[] ={10,20,30,50,40};
 
         //*Accessing Index */
 
@@ -64,17 +65,17 @@ public class Day4 {
         
 
 
-        // for (int i=a.length-1;i>=0;i--) {
-        //     System.out.print(a[i]);
+        for (int i=a.length-1;i>=0;i--) {
+            System.out.print(a[i]);
 
             
-        // }
+        }
 
-        // System.out.print(a[0]);
-        // System.out.print(a[1]);
-        // System.out.print(a[2]);
-        // System.out.print(a[3]);
-        // System.out.print(a[4]);
+        System.out.println(a[0]);
+        System.out.println(a[1]);
+        System.out.println(a[2]);
+        System.out.println(a[3]);
+        System.out.println(a[4]);
         
         
         // for(int i=0; i<a.length;i++) {
