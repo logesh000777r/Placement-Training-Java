@@ -9,7 +9,7 @@ public class LinkedHashMapDemo {
         m.put(103,"Shujith");//---->      --|
         m.put(104,"Loki");//                |
         m.put(105,"");//                    |------same key but but the value inserted finally will enetr the linkedHashMap
-        m.put(106,"Narayanan");//           |
+        m.put(null,"Narayanan");//           |
         m.put(103,"Narayanan");//---->    --|
         System.out.println(m);
     }

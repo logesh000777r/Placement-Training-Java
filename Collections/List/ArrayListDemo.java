@@ -40,17 +40,28 @@ public class ArrayListDemo {
 
 
         //Iteration using For Each
-        for (String str : list) {
-            System.out.println(str);
+        // for (String str : list) {
+        //     System.out.println(str);
 
-        }
+        // }
 
         // //Iterator
-        // Iterator<String>it=list.iterator();
+        // Iterator<String>it=list.Iterator();
         // while(it.hasNext()){
         //     System.out.println(it.next());
         // }
-        //..
+
+        //*List Iterator */
+        System.out.println("Forward");
+        ListIterator<String>it=list.listIterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+        System.out.println("Backward");
+        while(it.hasPrevious()){
+            System.out.println(it.previous());
+        }
+        
 
         
     }
