@@ -26,7 +26,7 @@ public class New {
 
             }
             
-        }
+        
                 System.out.println("No null value");
     }
 

@@ -19,7 +19,8 @@ public class Linear {
         if (!found){
             System.out.println("Element not found in given array");
             
-        }   
+        }  
+        sc.close(); 
     }
 
 
