@@ -3,7 +3,7 @@ import java.util.*;
 public class PriorityQueuedemo {
     public static void main(String[] args) {
         
-       // PriorityQueue<Integer> p = new PriorityQueue<>();
+    //    PriorityQueue<Integer> p = new PriorityQueue<>();
         // p.add(20);
         // p.add(50);
         // p.add(10);

@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithm.LinkedList.DoublyLinkedList;
+package DataStructuresAndAlgorithm.LinkedList.CircularlinkedList;
 
 class Node{
     int data;
@@ -6,7 +6,7 @@ class Node{
     Node prev;
 }
 
-public class Doubly {
+public class Circular {
     public static void main(String[] args) {
         Node first = new Node();
         Node second = new Node();
@@ -16,14 +16,14 @@ public class Doubly {
         second.data =200;
         third.data =300;
 
-        first.prev=null;
+        first.prev=third;
         first.next=second;
 
         second.prev=first;
         second.next=third;
 
         third.prev=second;
-        third.next=null;
+        third.next=first;
 
         System.out.println("Node 1");
         System.out.println("Previous Address : "+first.prev);
@@ -42,11 +42,11 @@ public class Doubly {
         System.out.println("Data : "+third.data);
         System.out.println("Next Address : "+third.next);
 
-        // Node temp = first;
-        // while(temp != null) {
-        //     System.out.println(temp.data+" ");
-        //     temp=temp.next;
-        }
+        Node temp = first;
+        do{
+            System.out.println(temp.data+" ");
+            temp=temp.next;
+        }while(temp != first) ;
     }
 
-
+}
