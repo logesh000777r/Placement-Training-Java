@@ -36,27 +36,28 @@ public class SearchElement {
         return search(root.right,key);
 
     }
-     static void inOrder(Node1 root) {
-        if(root==null) {
-            return;
-        }
-        inOrder(root.left);
-        System.out.print(root.data+" ");
-        inOrder(root.right);
-    }
-     public static void main(String[] args) {
+    //  static void inOrder(Node1 root) {
+    //     if(root==null) {
+    //         return;
+    //     }
+    //     inOrder(root.left);
+    //     System.out.print(root.data+" ");t
+    //     inOrder(root.right);
+    // }
+    public static void main(String[] args) {
         Node1 root =null;
         int[] arr = {50,30,70,20,40,60,80};
         for(int x : arr){
             root=insert(root,x);
         }
-        int key = 60;
+        int key = 10;
         if(search(root,key)){
-            System.out.println("Elemnt Found" );
+            System.out.println("Element Found" );
         }
         else{
             System.out.println("Element Not Found");
         }
-        inOrder(root);
+        //inOrder(root);
 
+}
 }
