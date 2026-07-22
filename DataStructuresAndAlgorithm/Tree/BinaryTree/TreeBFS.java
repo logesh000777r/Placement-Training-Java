@@ -3,8 +3,10 @@ package DataStructuresAndAlgorithm.Tree.BinaryTree;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// In DFS we can use Recursion but In BFS we can use only Queue
+
 class Node10{
-    int data;
+    int data;   //Instance variable
     Node10 left;
     Node10 right;
 
