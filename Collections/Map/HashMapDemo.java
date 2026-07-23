@@ -8,7 +8,7 @@ public class HashMapDemo {
         map.put(2,"Vasanthan");
         map.put(3,"");
         map.put(4,"Vasanthan");
-        System.out.println(map);
+        // System.out.println(map);
 
         //*Common Methods */
         // map.remove(3);
@@ -20,14 +20,14 @@ public class HashMapDemo {
         // System.out.println(map.size());  
         // System.out.println(map.containsValue("Vasanthan"));
         // System.out.println(map.values());
-        // System.out.println(map.keySet());
+        System.out.println(map.keySet());
         // System.out.println(map.containsKey(4));
         // System.out.println(map.entrySet());
 
         //*For Iteration */
-        for(HashMap.Entry<Integer, String> e:map.entrySet()){
-            System.out.println(e.getKey()+" "+e.getValue());
-        }
+        // for(HashMap.Entry<Integer, String> e:map.entrySet()){
+        //     System.out.println(e.getKey()+" "+e.getValue());
+        // }
 
     }
 

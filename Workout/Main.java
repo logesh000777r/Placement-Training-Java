@@ -1,4 +1,4 @@
-package Day_wise;
+package Workout;
 
 //*Day 9 */
 //List  (ArrayList,LinkedList,Vector) and Set (HashSet,LinkedHashSet and TreeSet)
