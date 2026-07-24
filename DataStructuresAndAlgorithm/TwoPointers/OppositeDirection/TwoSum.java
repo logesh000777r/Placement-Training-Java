@@ -10,9 +10,7 @@ public class TwoSum {
         while(left<=right){
             sum=arr[left]+arr[right];
             if(sum==target){
-                System.out.println("Target "+target+" reached"+" at index "+left+" "+right);
-
-            
+                System.out.println("Target "+target+" reached"+" at index "+left+" "+right);            
                 left++;
                 right--;
                 sum=0;

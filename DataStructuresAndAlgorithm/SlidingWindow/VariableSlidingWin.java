@@ -1,7 +1,8 @@
-package DataStructuresAndAlgorithm.TwoPointers.SlidingWindow;
+package DataStructuresAndAlgorithm.SlidingWindow;
 
 import java.util.HashSet;
-
+//This program finds the length of the longest substring 
+//without repeating characters using the Variable Sliding Window technique.
 public class VariableSlidingWin {
     public static void main(String[] args) {
         
