@@ -7,22 +7,24 @@ public class TwoSum {
         int left = 0;
         int right =arr.length-1;
         int sum =0;
-        while(left<=right){
+        boolean found = false;
+        while(left<right){
             sum=arr[left]+arr[right];
             if(sum==target){
-                System.out.println("Target "+target+" reached"+" at index "+left+" "+right);            
+                System.out.println("Target "+target+" reached"+" at index "+left+" "+right+" and Value of "+arr[left]+" "+arr[right]);   
+                found=true;         
                 left++;
                 right--;
-                sum=0;
+                
             }else if(sum<target){
                 left++;
-                sum=0;
+                // sum=0;
             }else{
                 right--;
                 
             }
         }
-        if(sum==1 )
+        if(!found)
         System.out.println("pair not found");
 
     }

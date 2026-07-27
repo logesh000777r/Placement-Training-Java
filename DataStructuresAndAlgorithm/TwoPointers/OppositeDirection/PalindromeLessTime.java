@@ -2,7 +2,7 @@ package DataStructuresAndAlgorithm.TwoPointers.OppositeDirection;
 
 public class PalindromeLessTime {
     public static void main (String[] args){
-        String str = "maram";
+        String str = "maam";
         int left=0;
         int right=str.length()-1;
         boolean palindrome=true;

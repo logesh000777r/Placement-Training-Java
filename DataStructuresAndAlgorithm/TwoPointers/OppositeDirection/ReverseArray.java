@@ -16,5 +16,4 @@ public class ReverseArray {
             System.out.print(num+" ");
         }
     }
-
 }

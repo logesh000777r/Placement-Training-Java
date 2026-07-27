@@ -6,7 +6,7 @@ public class Palindrome {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         int left=0;
-        int right=str.length()-1;
+        int right=str.length()-1; 
         for(int i=0;i<(str.length()/2)+1;i++){
             char ch1 = str.charAt(left);
             char ch2 = str.charAt(right);
