@@ -17,6 +17,7 @@ public class BubbleSort {
         //             arr[j]=temp;
         //         }
         //     }
+
             
         // }
         // System.out.println("Sorted Array:");
@@ -26,7 +27,7 @@ public class BubbleSort {
 
         //*Method 2 */
         for (int i=0;i<arr.length-1;i++){
-            for(int j=0;j<arr.length-1;j++){
+            for(int j=0;j<arr.length-1-i;j++){    //(also)for(int j=0;j<arr.length-1;j++)(possible)
                 if (arr[j]> arr[j+1]){
                     int temp = arr[j];
                     arr[j] = arr [j+1];

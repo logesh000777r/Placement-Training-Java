@@ -14,9 +14,9 @@ public class Binary {
         boolean found = false;
         int i=1;
         while(low<=high){
-            int mid=low+high/2;
+            int mid=(low+high)/2;
             if(arr[mid]==target){
-                System.out.println("Element Found at index : "+i);
+                System.out.println("Element Found at index : "+mid);
                 found =true;
                 break;
             }
