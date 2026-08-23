@@ -60,13 +60,11 @@ public class Merge_k_Sorted_Array {
             
             result[i]=arr3[i-6];
             
-        }
-        
+        }       
         // mergeSort(result,0,result.length-1);
         // System.out.println(Arrays.toString(result));
         mergeSort(result,0,result.length-1);
-        System.out.println(Arrays.toString(result));
-        
+        System.out.println(Arrays.toString(result));      
     }
 
 }

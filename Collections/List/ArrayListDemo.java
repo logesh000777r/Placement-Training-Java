@@ -11,9 +11,9 @@ public class ArrayListDemo {
 
 
         // //ArrayList Methods
-        // System.out.println(list);
+        System.out.println(list);
         // System.out.println(list.size());
-        // System.out.println(list.get(2));
+        System.out.println(list.get(2));
         // System.out.println(list.remove("Shahana"));
         // System.out.println(list);
         // System.out.println(list.set(3,"kishore"));
@@ -52,15 +52,15 @@ public class ArrayListDemo {
         // }
 
         //*List Iterator */
-        System.out.println("Forward");
-        ListIterator<String>it=list.listIterator();
-        while(it.hasNext()){
-            System.out.println(it.next());
-        }
-        System.out.println("Backward");
-        while(it.hasPrevious()){
-            System.out.println(it.previous());
-        }
+        // System.out.println("Forward");
+        // ListIterator<String>it=list.listIterator();
+        // while(it.hasNext()){
+        //     System.out.println(it.next());
+        // }
+        // System.out.println("Backward");
+        // while(it.hasPrevious()){
+        //     System.out.println(it.previous());
+        // }
         
 
         

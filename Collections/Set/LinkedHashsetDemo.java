@@ -13,6 +13,7 @@ public class LinkedHashsetDemo {
         set.add(40);
         System.out.println(set);
         System.out.println(set);
+        
     }
 
 }

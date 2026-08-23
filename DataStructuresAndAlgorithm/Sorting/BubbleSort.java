@@ -6,7 +6,7 @@ public class BubbleSort {
         int[] arr={5,3,8,4,2};
 
         // //*Method 1 */
-        // for (int i= 1; i<arr.length; i++) {
+        // for (int i= 1; i<arr.length; i++) {[]
         //     for(int j=0;j<i;j++){
         //         int temp = arr[i];
         //         if (arr[i]>arr[j]){
